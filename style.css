@@ -119,3 +119,15 @@ input {
 	transform: rotateY(-180deg);
 	z-index: 3;
 }
+#checkbox-page1:checked ~ .book #page3 {
+	transform: rotateY(-180deg);
+	z-index: 4;
+}
+#checkbox-page2:checked ~ .book #page4 {
+	transform: rotateY(-180deg);
+	z-index: 5;
+}
+#checkbox-page1:checked ~ .book #page5 {
+	transform: rotateY(-180deg);
+	z-index: 6;
+}
